@@ -248,7 +248,7 @@ footer a {
 @media screen and (min-width: 576px) {
     body {
         font-size: 2rem;
-        
+
     }
 
     /* ELEMENTI NEL MAIN - ARTICLE */
@@ -284,8 +284,8 @@ footer a {
         padding: 5px;
         text-align: left;
         position: relative;
-        
-        
+
+
     }
 
     header div,
@@ -297,7 +297,7 @@ footer a {
 
     header div img {
         margin: 10px 0 -10px;
-        
+
     }
 
     header nav {
@@ -314,10 +314,11 @@ footer a {
         margin: 2em auto;
         width: 70%;
     }
-    
+
     /* FORM e VIDEO */
-    
-    iframe, section {
+
+    iframe,
+    section {
         display: inline-block;
         width: 49%;
         margin: 20px auto;
@@ -326,11 +327,13 @@ footer a {
 
     iframe {
         vertical-align: top;
-        
+
     }
+
     section {
         border-radius: 20px;
     }
+
     input {
         padding: 10px;
         width: 70%;
@@ -346,33 +349,38 @@ footer a {
         width: 33.5%;
         margin: 0 -5px;
         text-align: left;
-        
+
     }
 
     aside {
         text-align: center;
     }
 
-    
-    
+
+
     /* FOOTER */
-footer {
-    padding: 1em 10em;
-    text-align: center;
-    font-size: 1em;
-}
+    footer {
+        padding: 1em 10em;
+        text-align: center;
+        font-size: 1em;
+    }
 }
 
 @media print {
     body {
-        font-size: 2.3rem;
-        
+        font-size: 2.2rem;
+
     }
 
     h1 {
         font-size: 1em;
     }
-    header, footer, iframe, section, aside {
+
+    header,
+    footer,
+    iframe,
+    section,
+    aside {
         display: none;
     }
 
@@ -383,5 +391,6 @@ footer {
 
     #container1 {
         float: left;
+        
     }
 }
