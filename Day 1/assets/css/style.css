@@ -328,7 +328,9 @@ footer a {
         vertical-align: top;
         
     }
-
+    section {
+        border-radius: 20px;
+    }
     input {
         padding: 10px;
         width: 70%;
@@ -343,8 +345,15 @@ footer a {
         display: inline-block;
         width: 33.5%;
         margin: 0 -5px;
+        text-align: left;
         
     }
+
+    aside {
+        text-align: center;
+    }
+
+    
     
     /* FOOTER */
 footer {
