@@ -364,7 +364,20 @@ footer {
 }
 
 @media print {
+    body {
+        font-size: 2.1rem;
+        
+    }
     header, footer, iframe, section, aside {
         display: none;
+    }
+
+    main {
+        border: none;
+        box-shadow: none;
+    }
+
+    #container1 {
+        float: left;
     }
 }
