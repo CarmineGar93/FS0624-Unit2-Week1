@@ -365,8 +365,12 @@ footer {
 
 @media print {
     body {
-        font-size: 2.1rem;
+        font-size: 2.3rem;
         
+    }
+
+    h1 {
+        font-size: 1em;
     }
     header, footer, iframe, section, aside {
         display: none;
