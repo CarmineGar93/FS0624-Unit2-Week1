@@ -111,9 +111,10 @@ main {
   width: 60px;
   height: 60px;
   border: 3px solid rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.726);
+  background-color: rgba(255, 255, 255, 0.829);
   position: fixed;
   z-index: 2;
+  opacity: 0.9;
   border-radius: 10px;
   right: -15px;
   box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.082);
