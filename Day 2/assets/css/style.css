@@ -115,7 +115,6 @@ main {
   position: fixed;
   z-index: 2;
   border-radius: 10px;
-  
   right: -15px;
   box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.082);
 }
@@ -140,6 +139,7 @@ a i {
   position: absolute;
   top: 20%;
   right: 25%;
+  color: #3E6BCA;
 }
 
 #goUp i {
