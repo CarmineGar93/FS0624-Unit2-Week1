@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    padding: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p, button, li, h1, h2, h4, h3 {
+    color: #742305;
+}
+
+/* header */
+header {
+    background-color: #FEF7E2;
+    height: 300px;
+    border-radius: 90px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    height: 80%;
+}
+
+nav ul li {
+    background-color: #FFDF7F;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 40px;
+    width: 35%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    font-size: 1.6em;
+    border-radius: 50px;
+    padding: 20px;
+    
+}
+
+nav ul li img {
+    width: 15%;
+    margin-right: 15px;
+}
+
+
+/* main */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 30px 50px;
+    
+}
+
+
+/* card */
+
+
+.card img {
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+}
+
+.cardBottom {
+    background-color: #FEF7E2;
+    padding: 20px;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.cardText {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+.cardText div {
+    text-align: center;
+}
+.cardText h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cardBottom button {
+    
+    background-color: #FFDF7F;
+    border: none;
+    font-weight: bolder;
+    
+    padding: 10px 50px;
+    border-radius: 30px;
+    
+    
+}
+
+/* section */
+
+h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 30px 50px;
+}
+
+#latestNews {
+    padding: 30px;
+    background-color: #FEF7E2;
+    border-radius: 30px;    
+}
+
+#latestNews h3 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 0 0 1em;
+}
+
+#latestNews img {
+    width: 100%;
+    margin: 2em 0;
+}
+
+#latestNews p {
+    line-height: 1.5em;
+}
