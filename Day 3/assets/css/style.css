@@ -263,7 +263,7 @@ h2 {
         justify-content: flex-start;
         align-items: center;
         height: auto;
-        width: 80%;
+        width: 95%;
         margin-top: 20px;
     }
 
@@ -276,7 +276,7 @@ h2 {
     nav ul li {
         background-color: #FFDF7F;
         margin: 10px 5px;
-        padding: 25px 0px;
+        padding: 35px 0px;
         border-radius: 40px;
         width: 75%;
         font-weight: bold;
@@ -293,6 +293,7 @@ h2 {
         justify-content: center;
         font-size: 1.4em;
         order: -1;
+        padding: 30px 0px;
 
         
     }
