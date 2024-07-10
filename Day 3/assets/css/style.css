@@ -83,7 +83,7 @@ h1 {
 
 .cardBottom {
     background-color: #FEF7E2;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 0 0 40px 40px;
     display: flex;
     flex-direction: column;
@@ -95,6 +95,7 @@ h1 {
 .cardText {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 20px;
     width: 100%;
     
@@ -250,6 +251,7 @@ h2 {
 
     header {
         width: 25%;
+        
     }
 
     main {
@@ -323,6 +325,10 @@ h2 {
         width: 31%;
     }
 
+    .card:nth-of-type(4) {
+        display: none;
+    }
+
     .cardBottom button {
     
         background-color: #FFDF7F;
@@ -334,6 +340,10 @@ h2 {
         
     }
 
+    .cardText {
+        justify-content: space-between;
+    }
+
     .cardText h4 {
         font-weight: bold;
         font-size: 1em;
@@ -341,5 +351,28 @@ h2 {
     
     .cardText p {
         font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card:nth-of-type(4) {
+        display: block;
+    }
+
+    header {
+        width: 20%;
+        
+    }
+
+    main {
+        width: 80%;
+    }
+
+    nav ul {
+        width: 80%;
+    }
+
+    .card {
+        width: 23%;
     }
 }
