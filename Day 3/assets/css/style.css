@@ -163,6 +163,7 @@ h2 {
 @media screen and (min-width: 500px) {
     body {
         padding: 0;
+        
     }
     
     header {
@@ -221,7 +222,7 @@ h2 {
 
     /* main */
     main {
-        margin: 10px;
+        margin: 0 10px;
     }
     
     h1 {
@@ -260,6 +261,7 @@ h2 {
 
     header {
         width: 25%;
+        margin: 0;
         
     }
 
@@ -274,13 +276,15 @@ h2 {
         justify-content: flex-start;
         align-items: center;
         height: auto;
-        width: 95%;
+        width: 90%;
         margin-top: 20px;
     }
 
     nav {
         height: auto;
         justify-content: center;
+        position: sticky;
+        top: 0;
         
     }
 
@@ -311,7 +315,7 @@ h2 {
 
     /* main */
     main {
-        margin: 30px;
+        margin: 10px 30px 0;
     }
     
     h1 {
@@ -378,7 +382,7 @@ h2 {
     }
 
     nav ul {
-        width: 80%;
+        width: 75%;
     }
 
     .card {
@@ -392,8 +396,12 @@ h2 {
     }
 
     header {
-        width: 15%;
+        width: 13%;
         
+    }
+
+    main {
+        width: 87%;
     }
 
     .card {
@@ -410,5 +418,19 @@ h2 {
         order: -1;
         margin: 0;
         margin-right: 20px;
+    }
+
+    nav ul li {
+        background-color: #FFDF7F;
+        margin: 10px 5px;
+        padding: 40px 0px;
+        border-radius: 45px;
+        width: 75%;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        font-size: 0.8em;
     }
 }
