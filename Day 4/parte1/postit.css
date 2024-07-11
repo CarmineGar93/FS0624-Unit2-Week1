@@ -1,0 +1,110 @@
+body {
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    font-family:'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.Postit {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.514);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.2);
+}
+
+.Postit:nth-of-type(2n) {
+    background: linear-gradient(120deg, #F0F0BC, #C7C7A7);
+    animation: animazione1 0.3s linear 0s 1;
+    transform: rotate(-3deg) scale(1);
+}
+
+.Postit:nth-of-type(2n + 1) {
+    background-color: #BAE0BB;
+    animation: animazione2 0.6s linear 0s 1;
+    transform: rotate(3deg) scale(1);
+}
+
+.Postit:nth-of-type(3n + 3) {
+    background-color: #C7C7F5;
+    animation: animazione3 1s linear 0s 1;
+    transform: rotate(2deg) scale(1);
+}
+
+
+
+@keyframes animazione1 {
+    0% {
+        transform: scale(1.2) rotate(0deg);
+        box-shadow: 9px 5px 20px 2px black;
+    }
+    50% {
+        transform: scale(1.1) rotate(-1deg);
+        box-shadow: 5px 2px 10px 1px black;
+
+    }
+
+    100% {
+        transform: rotate(-3deg) scale(1);
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.514);
+    }
+}
+
+@keyframes animazione2 {
+    0% {
+        transform: scale(1.2) rotate(0deg);
+        box-shadow: 9px 5px 20px 2px black;
+
+    }
+
+    0% {
+        transform: scale(1.2) rotate(1deg);
+        box-shadow: 5px 2px 10px 1px black;
+
+    }
+
+    100% {
+        transform: rotate(3deg) scale(1);
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.514);
+    }
+}
+
+@keyframes animazione3 {
+    0% {
+        transform: scale(1.2) rotate(0deg);
+        box-shadow: 9px 5px 20px 2px black;
+
+    }
+
+    50% {
+        transform: scale(1.1) rotate(1deg);
+        box-shadow: 5px 2px 10px 1px black;
+
+    }
+
+    100% {
+        transform: rotate(2deg) scale(1);
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.514);
+    }
+}
+
+.Postit:hover {
+    transform: scale(1.2) rotate(0deg);
+    box-shadow: 9px 5px 20px 2px black;
+    z-index: 1;
+    transition: all 0.2s linear;
+}
