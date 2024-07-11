@@ -36,94 +36,97 @@ i:first-child {
     animation: animazione 20s linear 0s infinite;
 }
 i:nth-child(2) {
-    transform: translate(-250px, 0px);
+    transform: translate(-250px, -200px);
     animation: animazione2 20s linear 6s infinite;
     
     
 }
 
 i:nth-child(3) {
-    transform: translate(-510px, 0px);
+    transform: translate(-510px, -200px);
     animation: animazione3 20s linear 12s infinite;
 }
 
 @keyframes animazione {
     0% {
-        opacity: 1;
         visibility: visible;
+        opacity: 0;
+        transform: translate(0, -200px);
     }
-
+    
     25% {
         opacity: 1;
-        transform: translate(0, 0px);
+        transform: translate(0,0);
     }
 
     50% {
-        opacity: 0;
-        transform: translate(0, 200px);
+        opacity: 1;
+        transform: translate(0,0);
     }
 
     75% {
         opacity: 0;
-        transform: translate(0, -200px);
+        transform: translate(0, 200px);
     }
 
     100% {
-        opacity: 1;
-        transform: translate(0,0);
+        opacity: 0;
+        transform: translate(0, -200px);
     }
 }
 
 @keyframes animazione2 {
     0% {
-        opacity: 1;
         visibility: visible;
+        opacity: 0;
+        transform: translate(-250px, -200px);
     }
-
+    
     25% {
         opacity: 1;
-        transform: translate(-250px, 0px);
+        transform: translate(-250px,0);
     }
 
     50% {
-        opacity: 0;
-        transform: translate(-250px, 200px);
+        opacity: 1;
+        transform: translate(-250px,0);
     }
 
     75% {
         opacity: 0;
-        transform: translate(-250px, -200px);
+        transform: translate(-250px, 200px);
     }
 
     100% {
-        opacity: 1;
-        transform: translate(-250px,0);
+        opacity: 0;
+        transform: translate(-250px, -200px);
     }
 }
 
 @keyframes animazione3 {
     0% {
-        opacity: 1;
         visibility: visible;
+        opacity: 0;
+        transform: translate(-510px, -200px);
     }
-
+    
     25% {
         opacity: 1;
-        transform: translate(-510px, 0px);
+        transform: translate(-510px,0);
     }
 
     50% {
-        opacity: 0;
-        transform: translate(-510px, 200px);
+        opacity: 1;
+        transform: translate(-510px,0);
     }
 
     75% {
         opacity: 0;
-        transform: translate(-510px, -200px);
+        transform: translate(-510px, 200px);
     }
 
     100% {
-        opacity: 1;
-        transform: translate(-510px,0);
+        opacity: 0;
+        transform: translate(-510px, -200px);
     }
 }
