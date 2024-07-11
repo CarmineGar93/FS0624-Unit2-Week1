@@ -33,18 +33,18 @@ body {
     display: inline-block;
 }
 i:first-child {
-    animation: animazione 30s linear 0s infinite;
+    animation: animazione 15s linear 0s infinite;
 }
 i:nth-child(2) {
     transform: translate(-250px, -200px);
-    animation: animazione2 30s linear 10s infinite;
+    animation: animazione2 15s linear 5s infinite;
     
     
 }
 
 i:nth-child(3) {
     transform: translate(-510px, -200px);
-    animation: animazione3 30s linear 20s infinite;
+    animation: animazione3 15s linear 10s infinite;
 }
 
 @keyframes animazione {
