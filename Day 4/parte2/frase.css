@@ -33,18 +33,18 @@ body {
     display: inline-block;
 }
 i:first-child {
-    animation: animazione 20s linear 0s infinite;
+    animation: animazione 30s linear 0s infinite;
 }
 i:nth-child(2) {
     transform: translate(-250px, -200px);
-    animation: animazione2 20s linear 6s infinite;
+    animation: animazione2 30s linear 10s infinite;
     
     
 }
 
 i:nth-child(3) {
     transform: translate(-510px, -200px);
-    animation: animazione3 20s linear 12s infinite;
+    animation: animazione3 30s linear 20s infinite;
 }
 
 @keyframes animazione {
@@ -54,17 +54,17 @@ i:nth-child(3) {
         transform: translate(0, -200px);
     }
     
-    25% {
+    16% {
         opacity: 1;
         transform: translate(0,0);
     }
 
-    50% {
+    33% {
         opacity: 1;
         transform: translate(0,0);
     }
 
-    75% {
+    49% {
         opacity: 0;
         transform: translate(0, 200px);
     }
@@ -82,17 +82,17 @@ i:nth-child(3) {
         transform: translate(-250px, -200px);
     }
     
-    25% {
+    16% {
         opacity: 1;
         transform: translate(-250px,0);
     }
 
-    50% {
+    33% {
         opacity: 1;
         transform: translate(-250px,0);
     }
 
-    75% {
+    49% {
         opacity: 0;
         transform: translate(-250px, 200px);
     }
@@ -110,17 +110,17 @@ i:nth-child(3) {
         transform: translate(-510px, -200px);
     }
     
-    25% {
+    16% {
         opacity: 1;
         transform: translate(-510px,0);
     }
 
-    50% {
+    33% {
         opacity: 1;
         transform: translate(-510px,0);
     }
 
-    75% {
+    49% {
         opacity: 0;
         transform: translate(-510px, 200px);
     }
